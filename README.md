@@ -76,3 +76,33 @@ CDN links are not preferred way to bring React into our code.
 - Consistency Hashing Algorithm
 - Zero Config
 - Tree Shaking
+
+# 03 - Laying the Foundation
+
+1. React.createElement creates a React Element which is a JS object.
+
+   - This javascript object is then coverted to HTML Element during render.
+
+2. JSX is a HTML or XML like syntax. JSX is not React.
+
+3. JSX is first transpiled by Babel which converts it to React.createElement and then the same process follows.
+
+4. JSX accepts camelCase as attribute names.
+
+5. Single line doesn't need parentheses. Multiple lines of JSX should be wrapped with parentheses.
+
+6. React Component
+
+- Class Based Component uses Javascript Classes to create it.
+- Functional Component uses Javascript Functions to create it.
+
+7. React Functional Component is a normal javascript function which returns some jsx. Component is written in sentence case.
+
+8. Component composition in React
+
+   - Component composition in React involves combining smaller, independent components to create complex UIs.
+   - Each sub-component can contain further components, enhancing code readability.
+   - This process breaks down the UI into manageable pieces, aiding traceability, scalability, and maintenance.
+   - Component composition facilitates easier debugging and isolated changes, making web development more efficient and maintainable.
+
+9. JSX {} prevents cross-site scripting attack.
